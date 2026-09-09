@@ -680,7 +680,8 @@ QUALITY WORK
   margin-right: 64px;
 }
 
-.quality__description .quality__img--wrapper {
+.quality__description,
+.quality__img--wrapper {
   width: 50%;
 }
 
@@ -755,6 +756,13 @@ STEPS
 .steps__description {
   padding: 32px 0;
   padding-left: 64px;
+}
+
+.step__description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  max-width: 320px;
 }
 
 .steps__img--wrapper {
@@ -836,7 +844,7 @@ VALUES
   flex-direction: column;
 }
 
-.value__description {
+.values__description {
   padding: 32px 64px 32px 0;
 }
 
@@ -892,7 +900,7 @@ VALUES
   margin-top: 32px;
 }
 
-.value__description,
+.values__description,
 .values__img {
   width: 50%;
 }
