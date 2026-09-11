@@ -1570,6 +1570,10 @@ MOBILE RESPONSIVENESS
     line-height: 1.5;
   }
 
+  .plan {
+    margin-right: 0px;
+  }
+
   .nav__logo {
     margin: 8px 0;
     padding-bottom: 4px;
@@ -1651,7 +1655,7 @@ MOBILE RESPONSIVENESS
 
   .start__title {
     font-size: 24px;
-  }d
+  }
 
   .start__buttons {
     flex-direction: column;
@@ -1660,6 +1664,7 @@ MOBILE RESPONSIVENESS
   .start__button {
     padding: 12px 24px;
     font-size: 14px;
+    width: 100%;
   }
 
   .start__button:nth-child(1) {
@@ -1672,5 +1677,21 @@ MOBILE RESPONSIVENESS
 
   .container {
     padding: 80px 0;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .footer__columns {
+    justify-content: center;
+  }
+
+  .footer__column {
+    width: auto;
+    padding: 0 16px;
+    text-align: center;
+    align-items: center;
   }
 }
